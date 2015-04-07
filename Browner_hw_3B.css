@@ -42,6 +42,7 @@
 		}
 
 		.right-column{
+			display: none;
 			float:right;
 			width: 400px;
 			padding: 10px;
