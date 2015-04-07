@@ -13,15 +13,24 @@
 		.sidebar{
 			float:left;
 			width: 100px;
-			height: 400px;
+			height: 100px;
 			padding: 10px;
 			margin: 10px;
-			/*background-color: pink;*/
+			position: fixed;
+			top: 50px;
+			left: 50px;
+			background-color: pink;
+		}
+
+		.wrapper{
+			width: 960px;
+			margin: 0 auto;
 		}
 
 		.left-column{
 			float:left;
 			width: 400px;
+			margin-right: 20px;
 			padding: 10px;
 			margin-top: 10px;
 			background-color: lightblue;
